@@ -169,7 +169,7 @@ button {
 }
 .tel-mob-link {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 1.1;
     text-transform: capitalize;
     color: var(--primary-brand-color);
@@ -186,7 +186,7 @@ button {
 } */
 .mob-social-item {
     display: flex;
-    gap: 56px;
+    gap: 30px;
 }
 .mob-social-items {
     width: 40px;
