@@ -1,0 +1,102 @@
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 428px;
+    }
+    /*-------------------------- Header ---------------------- */
+    .navigation-item {
+        display: none;
+    }
+    .address {
+        display: none;
+    }
+    .header-btn-open {
+        padding: 0;
+        border-radius: 0;
+        width: 32px;
+        height: 22px;
+        background-color: transparent;
+    }
+    .icon-btn-menu {
+        stroke: #2E2F42;
+    }
+    /* ---------------------------HERO------------------------ */
+    @media screen and (min-width: 428px){ 
+        .hero {
+            background-image:
+                linear-gradient(
+                rgba(46, 47, 66, 0.7)
+                ,rgba(46, 47, 66, 0.7)),
+                url(../images/Dark-bg-tab.jpg);
+        }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7)
+                ,rgba(46, 47, 66, 0.7)),
+                url(../images/Dark-bg-tab-2x-.jpg);
+            }
+        }
+    }
+    
+
+    /* -------------------------------Section 2--------------------------- */
+    .qualities-wrap {
+        display: block;  
+    }
+    .qualities-list:not(:last-child) {
+        margin-bottom: 72px;
+    }
+    .qualities-title {
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    /* .qualities-description {
+        
+    } */
+    /* ---------------------- section 3 Worck ----------------------*/
+    .container-mob {
+        padding-left: 82px;
+        padding-right: 82px;
+        max-width: 428px;
+    }
+    .work-section {
+        display: none;
+    }
+    /* -------------<!--Section 4--> Cards----------- */
+
+    .cards-content {
+        padding: 32px 14.1px 32px 14.1px;
+    }
+     /* ----------------section customers-------------------------- */
+     .customers {
+        padding: 96px 0 96px;
+    }
+    /* ---------------------------Basement----------------------- */
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .footers-wrap {
+        padding-bottom: 72px;
+    }
+    .social-header {
+        text-align: center;
+    }
+    .footer-form {
+         width: 100%;
+    }
+    .form-inp-and-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* ------------------------backdrop----------------------------------- */
+    
+
+
+
+
+}
