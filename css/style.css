@@ -37,6 +37,9 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+.no-scroll {
+    overflow: hidden;
+}
 .list {
     list-style: none;
 }
@@ -319,7 +322,7 @@ button {
     font-size: 36px;
     line-height: 1.11; */
 }
-/* ------------------------Section 4----------------------- */
+/* ------------------------Section 4-------team---------------- */
 .team {
     background-color: #F4F4FD;
     padding: 96px 0 96px;
@@ -336,9 +339,8 @@ button {
 .team-cadrs {
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: center;------- */
     gap: 72px;
-    padding-left: auto;
-    padding-right: auto;
 }
 .cards-content {
     padding: 32px 16px 32px 16px;
@@ -687,10 +689,10 @@ button {
     top: 50%;
     left: 50%;
     transform: scale(1)translate(-50%, -50%);
-    padding: 24px;
+    padding: 16px;
     padding-top: 72px;
     width: 408px;
-    min-height: 576px;
+    min-height: 586px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px 
                 rgba(0, 0, 0, 0.12), 0px 2px 1px 
@@ -778,7 +780,7 @@ button {
 }
 .modal-user-text {
     resize: none;
-    width: 360px;
+    width: 376px;
     height: 120px;
     left: 0px;
     top: 216px;

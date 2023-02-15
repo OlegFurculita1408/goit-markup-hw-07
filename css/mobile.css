@@ -58,11 +58,11 @@
         
     } */
     /* ---------------------- section 3 Worck ----------------------*/
-    /* .container-mob {
-        padding-left: 82px;
-        padding-right: 82px;
-        max-width: 428px;
-    } */
+    .container-mob {
+        max-width: 297px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .work-section {
         display: none;
     }
@@ -94,7 +94,12 @@
         justify-content: center;
     }
     /* ------------------------backdrop----------------------------------- */
-    
+    .modal {
+        width: 320px;
+    }
+    .modal-user-text {
+        width: 288px;
+    }
 
 
 
