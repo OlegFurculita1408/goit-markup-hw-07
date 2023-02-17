@@ -70,7 +70,7 @@ button {
 }
 /* -----------HEADER-------------- */
 .header {
-    padding: 24px 16px;
+    padding: 24px 0;
 }
 .header-wrap {
     display: flex;
@@ -110,7 +110,7 @@ button {
     height: 100vh;
     background-color: var(--primary-white-color);
     padding: 40px;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 .mob-menu > .container {
     height: 100%;
@@ -119,14 +119,16 @@ button {
     justify-content: space-between;
 }
 .mob-btn-close {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    margin-bottom: 16px;
     padding: 0;
     width: 24px;
     height: 24px;
+    top: 30px;
+    right: 30px;
     border-radius: 50%;
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -418,12 +420,9 @@ button {
     flex-wrap: wrap;
     justify-content: center;
 }
-.footers-wrap {
-    padding:0 80px 0 80px;
-}
 .social-wrap {
     min-width: 208px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .social-header {
     font-weight: 500;
