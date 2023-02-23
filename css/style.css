@@ -509,17 +509,21 @@ button {
 /* .meniu-filters {
 
 } */
+.project {
+    padding: 48px 0 48px;
+}
 .header-portfolio {
     border-bottom: 1px solid rgba(46, 47, 66, 0.4);;
 }
 .meniu-filters-item {
     display: flex;
-    justify-content: center;
-    margin-bottom: 72px;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 24px;
 }
-.meniu-filters-items:not(:last-child) {
+/* .meniu-filters-items:not(:last-child) {
     margin-right: 24px;
-}
+} */
 .meniu-filters-btn {
     font-family: inherit;
     color: var(--primary-brand-color);
@@ -544,18 +548,15 @@ button {
                 0px 2px 1px rgba(0, 0, 0, 0.08),
                 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-/* -------------Project Cards----------- */
-.project {
-    padding: 96px 0 96px;
-}
+/* ------------------------Project Cards------------------- */
+
 .project-item {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
+    justify-content: center;
+    gap: 48px;
 }
 .project-items {
-    flex-basis: calc((100% - 48px) / 3);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     transition: box-shadow var(--time-hover);
 }
@@ -782,8 +783,6 @@ button {
     resize: none;
     width: 100%;
     height: 120px;
-    /* left: 0px; */
-    /* top: 216px; */
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 8px 16px ;

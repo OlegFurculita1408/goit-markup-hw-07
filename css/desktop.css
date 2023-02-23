@@ -201,9 +201,29 @@
         width: 408px;
         height: 584px;
     }
-
-
-
+    /* ------------------------meniu filters--------------------- */
+    .project {
+        padding: 96px 0 96px;
+    }
+    .meniu-filters-item {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 72px;
+    }
+    .meniu-filters-items:not(:last-child) {
+        margin-right: 24px;
+    }
+    /* ------------------------Project Cards-------------------------- */
+    .project-item {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        column-gap: 24px;
+    }
+    .project-items {
+        flex-basis: calc((100% - 48px) / 3);
+    }
+    
 
 
 
